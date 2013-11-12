@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFAF7ACC1831F0130047A0A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAF7ACB1831F0130047A0A9 /* UIKit.framework */; };
+		CFAF7ACE1831F0130047A0A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAF7ACD1831F0130047A0A9 /* Foundation.framework */; };
+		CFAF7AD01831F0130047A0A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAF7ACF1831F0130047A0A9 /* CoreGraphics.framework */; };
+		CFAF7AD61831F0130047A0A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7AD41831F0130047A0A9 /* InfoPlist.strings */; };
+		CFAF7AD81831F0130047A0A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7AD71831F0130047A0A9 /* main.m */; };
+		CFAF7ADC1831F0130047A0A9 /* CFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7ADB1831F0130047A0A9 /* CFAppDelegate.m */; };
+		CFAF7ADE1831F0130047A0A9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7ADD1831F0130047A0A9 /* Default.png */; };
+		CFAF7AE01831F0130047A0A9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7ADF1831F0130047A0A9 /* Default@2x.png */; };
+		CFAF7AE21831F0130047A0A9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7AE11831F0130047A0A9 /* Default-568h@2x.png */; };
+		CFAF7AE51831F0130047A0A9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7AE31831F0130047A0A9 /* MainStoryboard_iPhone.storyboard */; };
+		CFAF7AE81831F0130047A0A9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7AE61831F0130047A0A9 /* MainStoryboard_iPad.storyboard */; };
+		CFAF7AEB1831F0130047A0A9 /* CFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7AEA1831F0130047A0A9 /* CFViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CFAF7AC81831F0130047A0A9 /* twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFAF7ACB1831F0130047A0A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CFAF7ACD1831F0130047A0A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CFAF7ACF1831F0130047A0A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CFAF7AD31831F0130047A0A9 /* twitter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "twitter-Info.plist"; sourceTree = "<group>"; };
+		CFAF7AD51831F0130047A0A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFAF7AD71831F0130047A0A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFAF7AD91831F0130047A0A9 /* twitter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "twitter-Prefix.pch"; sourceTree = "<group>"; };
+		CFAF7ADA1831F0130047A0A9 /* CFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFAppDelegate.h; sourceTree = "<group>"; };
+		CFAF7ADB1831F0130047A0A9 /* CFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFAppDelegate.m; sourceTree = "<group>"; };
+		CFAF7ADD1831F0130047A0A9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CFAF7ADF1831F0130047A0A9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CFAF7AE11831F0130047A0A9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CFAF7AE41831F0130047A0A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		CFAF7AE71831F0130047A0A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		CFAF7AE91831F0130047A0A9 /* CFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFViewController.h; sourceTree = "<group>"; };
+		CFAF7AEA1831F0130047A0A9 /* CFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFAF7AC51831F0130047A0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAF7ACC1831F0130047A0A9 /* UIKit.framework in Frameworks */,
+				CFAF7ACE1831F0130047A0A9 /* Foundation.framework in Frameworks */,
+				CFAF7AD01831F0130047A0A9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFAF7ABF1831F0130047A0A9 = {
+			isa = PBXGroup;
+			children = (
+				CFAF7AD11831F0130047A0A9 /* twitter */,
+				CFAF7ACA1831F0130047A0A9 /* Frameworks */,
+				CFAF7AC91831F0130047A0A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFAF7AC91831F0130047A0A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFAF7AC81831F0130047A0A9 /* twitter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFAF7ACA1831F0130047A0A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFAF7ACB1831F0130047A0A9 /* UIKit.framework */,
+				CFAF7ACD1831F0130047A0A9 /* Foundation.framework */,
+				CFAF7ACF1831F0130047A0A9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFAF7AD11831F0130047A0A9 /* twitter */ = {
+			isa = PBXGroup;
+			children = (
+				CFAF7ADA1831F0130047A0A9 /* CFAppDelegate.h */,
+				CFAF7ADB1831F0130047A0A9 /* CFAppDelegate.m */,
+				CFAF7AE31831F0130047A0A9 /* MainStoryboard_iPhone.storyboard */,
+				CFAF7AE61831F0130047A0A9 /* MainStoryboard_iPad.storyboard */,
+				CFAF7AE91831F0130047A0A9 /* CFViewController.h */,
+				CFAF7AEA1831F0130047A0A9 /* CFViewController.m */,
+				CFAF7AD21831F0130047A0A9 /* Supporting Files */,
+			);
+			path = twitter;
+			sourceTree = "<group>";
+		};
+		CFAF7AD21831F0130047A0A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFAF7AD31831F0130047A0A9 /* twitter-Info.plist */,
+				CFAF7AD41831F0130047A0A9 /* InfoPlist.strings */,
+				CFAF7AD71831F0130047A0A9 /* main.m */,
+				CFAF7AD91831F0130047A0A9 /* twitter-Prefix.pch */,
+				CFAF7ADD1831F0130047A0A9 /* Default.png */,
+				CFAF7ADF1831F0130047A0A9 /* Default@2x.png */,
+				CFAF7AE11831F0130047A0A9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFAF7AC71831F0130047A0A9 /* twitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFAF7AEE1831F0130047A0A9 /* Build configuration list for PBXNativeTarget "twitter" */;
+			buildPhases = (
+				CFAF7AC41831F0130047A0A9 /* Sources */,
+				CFAF7AC51831F0130047A0A9 /* Frameworks */,
+				CFAF7AC61831F0130047A0A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = twitter;
+			productName = twitter;
+			productReference = CFAF7AC81831F0130047A0A9 /* twitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFAF7AC01831F0130047A0A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CF;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Christina Francis";
+			};
+			buildConfigurationList = CFAF7AC31831F0130047A0A9 /* Build configuration list for PBXProject "twitter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CFAF7ABF1831F0130047A0A9;
+			productRefGroup = CFAF7AC91831F0130047A0A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFAF7AC71831F0130047A0A9 /* twitter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFAF7AC61831F0130047A0A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAF7AD61831F0130047A0A9 /* InfoPlist.strings in Resources */,
+				CFAF7ADE1831F0130047A0A9 /* Default.png in Resources */,
+				CFAF7AE01831F0130047A0A9 /* Default@2x.png in Resources */,
+				CFAF7AE21831F0130047A0A9 /* Default-568h@2x.png in Resources */,
+				CFAF7AE51831F0130047A0A9 /* MainStoryboard_iPhone.storyboard in Resources */,
+				CFAF7AE81831F0130047A0A9 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFAF7AC41831F0130047A0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAF7AD81831F0130047A0A9 /* main.m in Sources */,
+				CFAF7ADC1831F0130047A0A9 /* CFAppDelegate.m in Sources */,
+				CFAF7AEB1831F0130047A0A9 /* CFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CFAF7AD41831F0130047A0A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFAF7AD51831F0130047A0A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CFAF7AE31831F0130047A0A9 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFAF7AE41831F0130047A0A9 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CFAF7AE61831F0130047A0A9 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFAF7AE71831F0130047A0A9 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFAF7AEC1831F0130047A0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFAF7AED1831F0130047A0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFAF7AEF1831F0130047A0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "twitter/twitter-Prefix.pch";
+				INFOPLIST_FILE = "twitter/twitter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CFAF7AF01831F0130047A0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "twitter/twitter-Prefix.pch";
+				INFOPLIST_FILE = "twitter/twitter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFAF7AC31831F0130047A0A9 /* Build configuration list for PBXProject "twitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFAF7AEC1831F0130047A0A9 /* Debug */,
+				CFAF7AED1831F0130047A0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFAF7AEE1831F0130047A0A9 /* Build configuration list for PBXNativeTarget "twitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFAF7AEF1831F0130047A0A9 /* Debug */,
+				CFAF7AF01831F0130047A0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFAF7AC01831F0130047A0A9 /* Project object */;
+}
