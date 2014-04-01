@@ -19,6 +19,15 @@
 		CFAF7AE51831F0130047A0A9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7AE31831F0130047A0A9 /* MainStoryboard_iPhone.storyboard */; };
 		CFAF7AE81831F0130047A0A9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7AE61831F0130047A0A9 /* MainStoryboard_iPad.storyboard */; };
 		CFAF7AEB1831F0130047A0A9 /* CFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7AEA1831F0130047A0A9 /* CFViewController.m */; };
+		CFAF7AF21831F02E0047A0A9 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAF7AF11831F02E0047A0A9 /* Twitter.framework */; };
+		CFAF7AF41831F0380047A0A9 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAF7AF31831F0380047A0A9 /* Social.framework */; };
+		CFAF7AF61831F0420047A0A9 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAF7AF51831F0420047A0A9 /* Accounts.framework */; };
+		CFAF7AF91832279D0047A0A9 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7AF81832279C0047A0A9 /* DetailViewController.m */; };
+		CFAF7B241832E29D0047A0A9 /* metrolink_info.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7B1F1832E29C0047A0A9 /* metrolink_info.jpeg */; };
+		CFAF7B251832E29D0047A0A9 /* metro_logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7B201832E29D0047A0A9 /* metro_logo.jpeg */; };
+		CFAF7B261832E29D0047A0A9 /* octa_info.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7B211832E29D0047A0A9 /* octa_info.jpeg */; };
+		CFAF7B271832E29D0047A0A9 /* octa_logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7B221832E29D0047A0A9 /* octa_logo.jpeg */; };
+		CFAF7B281832E29D0047A0A9 /* twitter.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CFAF7B231832E29D0047A0A9 /* twitter.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +48,16 @@
 		CFAF7AE71831F0130047A0A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		CFAF7AE91831F0130047A0A9 /* CFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFViewController.h; sourceTree = "<group>"; };
 		CFAF7AEA1831F0130047A0A9 /* CFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFViewController.m; sourceTree = "<group>"; };
+		CFAF7AF11831F02E0047A0A9 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		CFAF7AF31831F0380047A0A9 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		CFAF7AF51831F0420047A0A9 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		CFAF7AF71832279C0047A0A9 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CFAF7AF81832279C0047A0A9 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CFAF7B1F1832E29C0047A0A9 /* metrolink_info.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = metrolink_info.jpeg; sourceTree = "<group>"; };
+		CFAF7B201832E29D0047A0A9 /* metro_logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = metro_logo.jpeg; sourceTree = "<group>"; };
+		CFAF7B211832E29D0047A0A9 /* octa_info.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = octa_info.jpeg; sourceTree = "<group>"; };
+		CFAF7B221832E29D0047A0A9 /* octa_logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = octa_logo.jpeg; sourceTree = "<group>"; };
+		CFAF7B231832E29D0047A0A9 /* twitter.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twitter.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +65,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFAF7AF61831F0420047A0A9 /* Accounts.framework in Frameworks */,
+				CFAF7AF41831F0380047A0A9 /* Social.framework in Frameworks */,
+				CFAF7AF21831F02E0047A0A9 /* Twitter.framework in Frameworks */,
 				CFAF7ACC1831F0130047A0A9 /* UIKit.framework in Frameworks */,
 				CFAF7ACE1831F0130047A0A9 /* Foundation.framework in Frameworks */,
 				CFAF7AD01831F0130047A0A9 /* CoreGraphics.framework in Frameworks */,
@@ -58,6 +80,9 @@
 		CFAF7ABF1831F0130047A0A9 = {
 			isa = PBXGroup;
 			children = (
+				CFAF7AF51831F0420047A0A9 /* Accounts.framework */,
+				CFAF7AF31831F0380047A0A9 /* Social.framework */,
+				CFAF7AF11831F02E0047A0A9 /* Twitter.framework */,
 				CFAF7AD11831F0130047A0A9 /* twitter */,
 				CFAF7ACA1831F0130047A0A9 /* Frameworks */,
 				CFAF7AC91831F0130047A0A9 /* Products */,
@@ -91,6 +116,8 @@
 				CFAF7AE61831F0130047A0A9 /* MainStoryboard_iPad.storyboard */,
 				CFAF7AE91831F0130047A0A9 /* CFViewController.h */,
 				CFAF7AEA1831F0130047A0A9 /* CFViewController.m */,
+				CFAF7AF71832279C0047A0A9 /* DetailViewController.h */,
+				CFAF7AF81832279C0047A0A9 /* DetailViewController.m */,
 				CFAF7AD21831F0130047A0A9 /* Supporting Files */,
 			);
 			path = twitter;
@@ -99,6 +126,11 @@
 		CFAF7AD21831F0130047A0A9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CFAF7B1F1832E29C0047A0A9 /* metrolink_info.jpeg */,
+				CFAF7B201832E29D0047A0A9 /* metro_logo.jpeg */,
+				CFAF7B211832E29D0047A0A9 /* octa_info.jpeg */,
+				CFAF7B221832E29D0047A0A9 /* octa_logo.jpeg */,
+				CFAF7B231832E29D0047A0A9 /* twitter.jpeg */,
 				CFAF7AD31831F0130047A0A9 /* twitter-Info.plist */,
 				CFAF7AD41831F0130047A0A9 /* InfoPlist.strings */,
 				CFAF7AD71831F0130047A0A9 /* main.m */,
@@ -168,6 +200,11 @@
 				CFAF7AE21831F0130047A0A9 /* Default-568h@2x.png in Resources */,
 				CFAF7AE51831F0130047A0A9 /* MainStoryboard_iPhone.storyboard in Resources */,
 				CFAF7AE81831F0130047A0A9 /* MainStoryboard_iPad.storyboard in Resources */,
+				CFAF7B241832E29D0047A0A9 /* metrolink_info.jpeg in Resources */,
+				CFAF7B251832E29D0047A0A9 /* metro_logo.jpeg in Resources */,
+				CFAF7B261832E29D0047A0A9 /* octa_info.jpeg in Resources */,
+				CFAF7B271832E29D0047A0A9 /* octa_logo.jpeg in Resources */,
+				CFAF7B281832E29D0047A0A9 /* twitter.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +218,7 @@
 				CFAF7AD81831F0130047A0A9 /* main.m in Sources */,
 				CFAF7ADC1831F0130047A0A9 /* CFAppDelegate.m in Sources */,
 				CFAF7AEB1831F0130047A0A9 /* CFViewController.m in Sources */,
+				CFAF7AF91832279D0047A0A9 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
